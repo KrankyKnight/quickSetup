@@ -5,6 +5,7 @@
   "author": "KrankyKnight",
   "license": "ISC",
   "scripts": {
+    "build": "python3 ./scripts/setup.py",
     "setup": "python3 ./scripts/run.py",
     "select": "python3 ./scripts/run.py --select"
   },
