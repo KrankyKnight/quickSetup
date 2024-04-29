@@ -1,0 +1,13 @@
+# list the windows you want to open below in the following syntax
+# referenceName:
+#   - windowName (no spaces)
+#   - page 1 url
+#   - page 2 url
+#   - page 3 url
+#   - page ... etc. 
+
+# example you can delete
+Media Window:
+  - Media
+  - https://www.youtube.com/
+  - https://open.spotify.com/
