@@ -1,0 +1,15 @@
+{
+  "name": "quicksetup",
+  "version": "1.0.0",
+  "description": "Quick web setup for Chrome on MacOS",
+  "author": "KrankyKnight",
+  "license": "ISC",
+  "scripts": {
+    "setup": "python3 ./scripts/run.py",
+    "select": "python3 ./scripts/run.py --select"
+  },
+  "bugs": {
+    "url": "https://github.com/KrankyKnight/quickSetup/issues"
+  },
+  "homepage": "https://github.com/KrankyKnight/quickSetup#readme"
+}
