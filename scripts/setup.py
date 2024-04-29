@@ -1,6 +1,6 @@
 import os
 
-start = open("test.sh", "x")
+start = open("openwin.sh", "x")
 start.write('#!/bin/sh\n')
 start.write('\n')
 start.write('echo "Starting application setup process..."\n')
