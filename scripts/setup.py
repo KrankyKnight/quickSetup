@@ -1,0 +1,15 @@
+import os
+
+start = open("test.sh", "x")
+start.write('#!/bin/sh\n')
+start.write('\n')
+start.write('echo "Starting application setup process..."\n')
+start.write('cd ' + os.path.dirname(os.path.abspath(__file__)) + '\n')
+start.write('cd ..\n')
+start.write('echo -n "Would you like to run the full setup? (Y/n): "\n')
+start.write('read selection\n')
+start.write('if [ $selection == "n" ]\n')
+start.write('then npm run select\n')
+start.write('else npm run setup\n')
+start.write('fi\n')
+start.write('echo "Setup complete!"\n')
