@@ -1,10 +1,9 @@
 # list the windows you want to open below in the following syntax
-# referenceName:
+# referenceName: (this will be used in the cli)
 #   - windowName (no spaces)
-#   - page 1 url
-#   - page 2 url
-#   - page 3 url
-#   - page ... etc. 
+#   - url 1
+#   - url 2
+#   - etc.
 
 # example you can delete
 Media Window:
